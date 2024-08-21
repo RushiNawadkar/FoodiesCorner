@@ -1,0 +1,72 @@
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.itemImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.restrauntDetails {
+  max-width: 80%;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.card {
+  display: flex;
+  margin: 5px 5px;
+}
+
+.card .imgBox {
+  margin: 20px;
+}
+
+.descColor {
+  /* background-color: #222831; */
+  /* color: #ffffff; */
+  padding: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px;
+  }
+
+  .card .imgBox {
+    margin: 20px;
+    padding: 55px;
+  }
+  .descColor{
+    font-size: 24px;
+  }
+  .descColor .title{
+    font-weight: 700;
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px){
+  .imageContainer {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+  }
+  .card .imgBox {
+    margin: 20px;
+    padding: 0px;
+  }
+}

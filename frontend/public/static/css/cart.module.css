@@ -1,0 +1,123 @@
+/* styles/Cart.module.css */
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.main {
+    padding: 20px;
+}
+
+.cart {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart h2 {
+    margin-bottom: 20px;
+}
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.itemImage {
+    width: 160px;
+    height: 115px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.itemDetails {
+    flex: 1;
+}
+
+.itemTotal {
+    text-align: right;
+    font-weight: bold;
+}
+.quantityControls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.quantityBtn {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.quantityBtn:hover {
+    background-color: #e64a19;
+}
+
+.cartSummary {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.cartSummary h2 {
+    margin: 0 0 10px;
+}
+
+/* .checkoutBtn {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.checkoutBtn:hover {
+    background-color: #e64a19;
+} */
+
+.deleteBtn {
+    background-color: #e64a19;
+    color: whitesmoke;
+    border: none;
+    border-radius: 7px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px #888888;
+    transition: all 0.2s ease; 
+}
+
+.deleteBtn:hover {
+    background-color: #d84315; 
+    box-shadow: 5px 5px 12px #666666; 
+}
+
+.deleteBtn:active {
+    background-color: #c62828; 
+    box-shadow: inset 2px 2px 5px #666666; 
+    transform: translateY(2px);
+}
+
+
+
